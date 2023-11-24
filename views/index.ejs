@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=" styles.css">
+  <title>My Web Server</title>
+</head>
+<body>
+ <div class="container">
+  <aside class="sidebar">
+    <h1>My Dashboard</h1>
+  </aside>
+ </div>
+ <div class="dashboard-container">
+  <h2>Welcome</h2>
+  <div class="widget">
+    <h3>Bitcoin Prices</h3>
+    <canvas id="bitcoinChart" width="400" height="200"></canvas>
+  </div>
+  <div class="widget">
+    <h3>Recent Activity</h3>
+    <!-- Display recent activities -->
+    <ul>
+      <li>User logged in</li>
+      <li>Data updated</li>
+      <!-- Add more items if need be -->
+    </ul>
+  </div>
+  <!-- Add more widgets and content based on dashboard requirements -->
+ </div>
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="/script.js"></script>
+</body>
+</html>
